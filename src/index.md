@@ -1,8 +1,10 @@
 ---
 layout: base
-title: Home
+title: "Home"
+tags: page
 ---
 
+![hero image](assets/images/learn.png)
 
 # My Eleventy Site
 

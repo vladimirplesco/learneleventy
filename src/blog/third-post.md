@@ -1,6 +1,6 @@
 ---
 title: Third Post
-layout: base
+layout: blogLayout
 tags: post
 ---
 

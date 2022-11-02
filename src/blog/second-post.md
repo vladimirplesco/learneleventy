@@ -1,6 +1,6 @@
 ---
 title: Second Post
-layout: base
+layout: blogLayout
 tags: post
 ---
 

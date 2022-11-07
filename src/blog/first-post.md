@@ -1,7 +1,7 @@
 ---
 title: First Post
-layout: blogLayout
-tags: post
+description: This is my first post
+date: 2022-10-01
 ---
 
 # First Post

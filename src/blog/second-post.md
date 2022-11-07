@@ -1,7 +1,7 @@
 ---
 title: Second Post
-layout: blogLayout
-tags: post
+description: This is my second post
+date: 2022-10-02
 ---
 
 # Second Post

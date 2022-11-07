@@ -1,7 +1,7 @@
 ---
 title: Fourth Post
-layout: blogLayout
-tags: post
+description: This is my fourths post
+date: 2022-10-04
 ---
 
 # Fourth Post

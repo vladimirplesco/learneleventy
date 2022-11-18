@@ -7,8 +7,8 @@
     {# <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?
-     family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}"> #}
+     family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"> #}
+    {# <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}"> #}
     <link rel="stylesheet" href="{{ '/assets/css/tailwind.css' | url }}">
     {# <title>My Eleventy Site - {{title}}</title> #}
     <title>{{site.name}}{% if title %} - {{title}} {% endif%}</title>
@@ -22,7 +22,8 @@
   </head>
     <body>
       {% include "partials/_navigation.njk" %}
-      <main>
+      {# {% include "partials/_footer.njk" %} #}
+      <main class="max-w-3xl mx-auto py-12 min-h-screen">
         {{content | safe}}
       </main>
   </body>

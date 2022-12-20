@@ -1,0 +1,20 @@
+<!--  src/_layouts/postLayout.njk -->
+
+---
+layout: base
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/blog/{{ post.slug | slugify }}/"
+templateEngineOverride: njk,md
+eleventyComputed:
+  title: "{{post.title | safe}}"
+---
+
+<div>
+<h1>{{post.title}}</h1>
+
+{{post.contentMarkdown}}
+{% include "partials/_paginate.njk" %}
+</div>
